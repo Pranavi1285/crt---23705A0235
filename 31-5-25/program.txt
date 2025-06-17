@@ -1,0 +1,30 @@
+class Movie{
+    String name;
+    String category;
+    String duration;
+    float rating;
+    void details(){
+        System.out.println("String name:" + name);
+        System.out.println("String category:" + category);
+        System.out.println("String duration:" + duration);
+        System.out.println("float rating:" + rating);
+        if(rating >a){
+            System.out.println("Movie is hit");
+        }
+        else{
+            System.out.println("Movie is flop");
+        }
+        Movie(String name, String category, String duration, float rating){
+            this.name =  name;
+            this.category = category;
+            this.duration = duration;
+            this.rating = rating;
+        }
+    }
+    public class Main{
+        public static void main(String[] args){
+            Movie M1 = new movie("Varsham","02:40","9.5");
+            M1.details();
+        }
+    }
+}
